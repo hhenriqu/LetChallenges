@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora Challenge</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="display" id="display">0</div>
+
+      <div class="buttons">
+        <button class="btn btn-special" id="clear">Ac</button>
+        <button class="btn btn-special" id="backspace">⌫</button>
+        <button class="btn btn-operator" data-op="/">/</button>
+        <button class="btn btn-operator" data-op="*">*</button>
+
+        <button class="btn btn-number">7</button>
+        <button class="btn btn-number">8</button>
+        <button class="btn btn-number">9</button>
+        <button class="btn btn-operator" data-op="-">-</button>
+
+        <button class="btn btn-number">4</button>
+        <button class="btn btn-number">5</button>
+        <button class="btn btn-number">6</button>
+        <button class="btn btn-operator double-height" data-op="+">+</button>
+
+        <button class="btn btn-number">1</button>
+        <button class="btn btn-number">2</button>
+        <button class="btn btn-number">3</button>
+
+        <button class="btn btn-number double-width">0</button>
+        <button class="btn btn-number">.</button>
+        <button class="btn btn-equal" id="equal">=</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
